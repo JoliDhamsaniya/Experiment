@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+ font-family: "poppins";
+}
+
+body{
+    background-color:#f1f1f1;
+  }
+  
+  #clr {
+    color: black;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    margin-top: -20px;
+  }
+  
+  #contact {
+    color: #372528;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  #logofooter3 {
+    padding-left: 20px;
+  }
+  #logofooter3 {
+    color: #372528;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  aside{
+    padding-left:20px;
+  }
+  
+  .row{
+    color: lightgrey;
+    font-family:Raleway;
+    padding-left: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #282e34;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    margin-left: 270px;
+    margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  input[type="email"]{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #282e34;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color:#395B64;
+    padding: 20px;
+    width:50%;
+   margin-top: 10px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #logofooter3{
+    text-align:center;
+    padding-bottom:80px
+  }
+  
+  @media (max-width: 600px) {
+    .col-25,
+    .col-75,
+    input[type="submit"] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ajex & jQuery</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<style type="text/css">
+		body{
+			background-color:cadetblue;
+		}
+		.jquery{
+			border: 4px solid black;
+			padding: 20px;
+			background-color: beige;
+		}
+		#myMessage{
+			color: blue;
+			font-size: 20px;
+			margin: 5px;
+		}
+		.ajax{
+			border: 4px solid black;
+			padding: 20px;
+			background-color: beige;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center">jQuery</h1>
+	<div class="jquery">
+	<h2>Let's Took Example of jQuery</h2>
+	<p>Click on the button <b>Click Me</b> and you will get the message of Hello Welcome to jQuery.</p>	
+    <button id="myButton">Click me</button>
+    <div id="myMessage"></div>
+    </div>
+    <h1 align="center">Ajax</h1>
+    <div class="ajax">
+    <h2>Let's Took Example of ajax</h1>
+    <p>Click on the button <b>Load Contect</b> and you will get contents that we are getting from the file.</p>
+    <button type="button" onclick="loadContent()">Load Content</button>
+	<br><br>
+	<div id="msg"></div>
+	</div>
+	<script>
+		function loadContent() {
+			const xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function() {
+				if (this.readyState === 4 && this.status === 200) {
+document.getElementById("msg").innerHTML = this.responseText;
+				}
+			};
+			xhr.open("GET", "https://jsonplaceholder.typicode.com/users");
+			xhr.send();
+		}
+	</script>
+  <script>
+    $(document).ready(function() {
+      $('#myButton').click(function() {
+        $('#myMessage').text('Hello Welcome to jQuery');
+      });
+    });
+
+  </script>
+</body>
+</html>

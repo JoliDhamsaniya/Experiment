@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filters</title>
+
+    <link rel="stylesheet" href="filters.css">    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header" id="mobile-nav" style="padding-left:35px;width: 100%;" >			
+        <a href="Homepage.html"><img class="img" src="images/logo1.png" align=left width=30 height=30></a>
+        <h1 style="width: 92%;color:white">Laptopworld<h1>
+        </div>
+    <div class="col-xl-3">
+        <br><br>
+        <form class="shop__filter mt-3 mb-5"
+            style="background-color:rgb(231, 226, 226);  border: 2px solid black;font-size: 14px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
+            id="form">
+
+            <!-- Checkboxes -->
+            <br>
+            <h3 class="headline mx-2 mx-2">
+                <span><i class="fa-solid fa-chevrons-right"></i> Brand</span>
+            </h3>
+
+            <div class=" mx-5">
+                <input type="checkbox" value="" id="shop-filter-checkbox_1" style="height: 17px;width: 17px;" />
+                <label for="shop-filter-checkbox_1">ASUS</label>
+            </div>
+
+            <div class=" mx-5">
+                <input type="checkbox" value="" id="shop-filter-checkbox_2" style="height: 17px;width: 17px;" />
+                <label for="shop-filter-checkbox_2">DELL</label>
+            </div>
+
+            <div class=" mx-5">
+                <input type="checkbox" value="" id="shop-filter-checkbox_3" checked=""
+                    style="height: 17px;width: 17px;" />
+                <label for="shop-filter-checkbox_3">HP</label>
+            </div>
+
+            <div class="mx-5">
+                <input type="checkbox" value="" id="shop-filter-checkbox_4" style="height: 17px;width: 17px;" />
+                <label for="shop-filter-checkbox_4">Lenovo</label>
+            </div>
+            <div class=" mx-5">
+                <input type="checkbox" value="" id="shop-filter-checkbox_5" style="height: 17px;width: 17px;" />
+                <label for="shop-filter-checkbox_5">Not specified</label>
+            </div><br>
+
+            <!-- Price -->
+            <h3 class="headline mx-2">
+                <span><i class="fa-solid fa-chevrons-right"></i> Price</span>
+            </h3>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__price" id="shop-filter-price_1" value="" checked="" />
+                <label for="shop-filter-price_1">1000-10000</label>
+            </div>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__price" id="shop-filter-price_2" value="" />
+                <label for="shop-filter-price_2">10000-50000</label>
+            </div>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__price" id="shop-filter-price_3" value="" />
+                <label for="shop-filter-price_3">60000-80000</label>
+            </div>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__price" id="shop-filter-price_4" value="specify" />
+                <label for="shop-filter-price_4">Other (specify)</label>
+            </div><br>
+
+            <!-- Radios -->
+            <h3 class="headline mx-2">
+                <span><i class="fa-solid fa-chevrons-right"></i> Specification</span>
+            </h3>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__radio" id="shop-filter-radio_1" value="" checked="" />
+                <label for="shop-filter-radio_1">High RAM</label>
+            </div>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__radio" id="shop-filter-radio_2" value="" />
+                <label for="shop-filter-radio_2">Low RAM</label>
+            </div>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__radio" id="shop-filter-radio_3" value="" />
+                <label for="shop-filter-radio_3">High Process</label>
+            </div>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__radio" id="shop-filter-radio_4" value="" />
+                <label for="shop-filter-radio_4">Low Process</label>
+            </div>
+            <div class="radio mx-2">
+                <input type="radio" name="shop-filter__radio" id="shop-filter-radio_5" value="" />
+                <label for="shop-filter-radio_5">Not
+                    specified</label><br><br><br>
+            </div>
+        </form>
+     </div>
+    </div>
+
+   <div class="col-xl-3">
+    <img src="1.png">
+   </div>
+
+  
+
+
+   
+</body>

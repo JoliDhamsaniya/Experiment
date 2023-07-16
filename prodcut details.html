@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel=”stylesheet” href="css/bootstrap-responsive.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel='stylesheet' href='web\bootstrap-5.3.0-alpha2-dist\css\bootstrap.min.css'>
+  <link rel='stylesheet' href='Experiment/bootstrap-icons-1.10.3\cart-plus-fill.svg'>
+   <link rel="stylesheet" href='bootstrap-icons.css'>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header" id="mobile-nav" style="padding-left:35px;width: 100%;" >			
+    <a href="Homepage.html"><img class="img" src="images/logo1.png" align=left width=30 height=30></a>
+    <h1 style="width: 92%;color:white">Laptopzone<h1>
+    <input type="text" placeholder="Search.." name="search" style="width:200px;font-size: 20px;margin-left: 50px;">
+     <i class="fa fa-search" style="font-size: 23px;height: 25px;background-color:white"></i></button>
+    <i class="fa fa-shopping-cart" style="font-size: 24px;margin-inline:20px;color:white"></i>
+    <i class="fa fa-user" style="font-size:20px;color:white"></i>
+    </div>
+    <nav>
+        <ul>
+        <li>
+       <a href="prodcut.html">products</a>
+        <span></span><span></span><span></span><span></span>
+        </li></ul>
+    </nav>
+
+    <div class="dropdown">
+    <button class="dropbtn">G/P/C</button>
+    <div class="dropdown-content">
+    <a href="#">Profesional laptop</a>
+    <a href="#">Gaming laptop</a>
+    <a href="#">student laptop</a>
+    </div>
+  </div>
+
+
+      <div class="row">
+        <div class="col-md">
+    <div class="slider" style="max-width:500px;max-height:600px;margin-left:20px;">
+      <img class="mySlides" src="images/apple (2).jpg" style="width:90%;height:80%">
+      <img class="mySlides" src="images/apple.jpg" style="width:90%;height:80%">
+      <img class="mySlides" src="images/acer 1.webp" style="width:90%;height:80%">
+      <img class="mySlides" src="images/apple.jpg" style="width:90%;height:80%">
+      <img class="mySlides" src="images/c.avif" style="width:90%;height:80%"></div>
+
+    <div class="prodcut">
+        <p>RAM:8 GB</p>
+        <p>Processor:M1 Processor</p>
+        <p>Genration:MacBook pro</p>
+        <p>Storage:4 TB</p>
+    </div>  </div>
+      <div class="col-md" style="margin-left: -400px;">
+  <div class="prodcut1">
+    <table cellpadding="10" width="80%" style="margin-top: 120px;">
+      <tr>
+        <td>Name:APPLE 2020 Macbook Air M1</td>
+        <td><button>Buy</button></td>
+      </tr>
+      <tr>
+        <td>Brand:Apple </td>
+        <td rowspan="2"><button>Add prodcut</button></td>
+      </tr>
+      <tr>
+        <td>Price:1,00,000</td>
+      </tr>
+    </table>   
+  </div>  
+  </div>
+  </div>
+  </div> 
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    <div class="footer">
+      <div class="row">
+       <center><h3 id="follow">follow us</h3>
+       <div class="share">
+     <a href="#" class="fab fa-facebook-f"></a>
+     <a href="#" class="fab fa-youtube"></a>
+     <a href="#" class="fab fa-twitter"></a>
+     <a href="#" class="fab fa-instagram"></a>
+     <a href="#" class="fab fa-linkedin"></a>
+     <a href="#" class="fab fa-pinterest"></a>
+   </div>
+   <h5>@copy right</h5>
+   </center>   
+   </div>
+   </div>
+</body>
+</html>
+
+    

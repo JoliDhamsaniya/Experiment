@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>add product page</title>
+  <link href="add product.css" rel="stylesheet" type="text/css">
+
+
+  
+</head>
+ 
+<body>
+  <div class="header" id="mobile-nav" style="padding-left:35px;width: 100%;" >			
+    <a href="Homepage.html"><img class="img" src="images/logo1.png" align=left width=30 height=30></a>
+    <h1 style="width: 92%;color:white;" >Laptopzone<h1>
+    </div><br>
+ 
+   
+  
+    <center>
+    <div class="container">
+        <form action="/action_page.php">
+        <table width="100%" cellpadding="10">
+ 
+           <tr>
+         <td><label for="fname">Enter Name</label><br></td>
+          <td><input type="text" id="fname" name="firstname" placeholder="Your name.. " pattern="[A-Za-Z]{3}" required><br></td></tr>
+      
+          <tr>
+          <td><label form="lname">Enter category</label><br></td>
+            <td>
+            <select name="laptop" id="laptop">
+              <option value="professinal laptop">Professoinal laptop</option>
+              <option value="gaming laptop">gaming laptop</option>
+                
+            </select></td></tr>
+           
+           <tr>
+            <td><label for="desc">Enter Description</label></td>
+            <td><textarea id="subject" name="subject" placeholder="Write Your Query...." style="height:100px" required></textarea></td></tr>
+
+          <tr>
+            <td><label for="price">Enter Price</label></td>
+            <td><input type="number" id="number" name="number"></td></tr>
+          
+          <tr>
+            <td><label for="file">Upload product image</label></td>
+            <td><input type="file" id="file" name="file"></td>
+          </tr>
+            <tr>
+            
+        
+           <td>
+         <center><input type="Submit" value="Submit"></center></td> 
+        </form>
+    </center>
+        </table>
+        
+       
+      </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+ font-family: "poppins";
+}
+
+
+.header
+{
+    padding: 0px;
+    margin-top: -10px;
+    padding: 10px 40px 20px 0px;
+    background-color:#395B64;
+    font-size: 15px;
+    margin-left: -8px;
+    display: flex;
+    width: 100%;
+}
+.img{
+    margin-top: 10px;
+    margin-right: 2%;
+    top: 0px;
+    left: 0px;
+    height: 65px;
+    width: 65px;
+}
+body{
+    background-color: #ebeeef;;
+}
+.header h1{
+margin: 15px 60px;
+width: 800px;
+font-family:"poppins";
+font-size: 35px;
+}
+label{
+    font-size:23px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+}
+input[type=text], select, textarea,select,option{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;   
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: cornsilk;
+    font-size: 15px;
+  }
+  input[type=file]{
+    font-size: 15px;
+    color: white;
+  }
+  
+  input[type=submit]{
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 120px;
+  }
+  
+ 
+  input[type=number]{
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;   
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: cornsilk;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+  }
+  
+  .container {
+    border-radius: 25px;
+    width: 35%;
+    background-color:#395B64;
+    padding: 20px; 
+    margin-top: 30px;
+  }
+  
+  .container input{
+      width: 100%;
+  }
+  
+
